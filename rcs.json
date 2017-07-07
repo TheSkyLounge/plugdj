@@ -2,7 +2,7 @@
     "room":                     "Sky Lounge",
     "author":                   "Moryo",
     "icon":                     "",
-    "css":                      "https://raw.githubusercontent.com/TheSkyLounge/plugdj/master/room-styles.css",
+    "css":                      "https://theskylounge.ga/plugdj/room-styles.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,

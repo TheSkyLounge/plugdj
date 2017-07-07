@@ -1,6 +1,5 @@
-
 #room-bar .icon-room {
-    background: url(http://i.imgur.com/HiNqDEI.png);
+    background: url('http://i.imgur.com/HiNqDEI.png');
 }
 
 #playback-container {
@@ -368,4 +367,4 @@
 
 body {
     background-size: 100% auto !important background-attachment: fixed 0px 0px !important
-} 
+}
