@@ -310,8 +310,8 @@ body {
 }
 
 #footer, #playlist-button, #footer-user .buttons .button, .app-header, #app-menu, #rs-skip-button, #history-button {
-  box-shadow: 0 !important;
-  -webkit-box-shadow: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 #footer-user .buttons {
   height: 54px !important;
