@@ -142,11 +142,11 @@
 }
 
 #user-lists .list-header  {
-	background: rgba(0,0,0,0.65) !important;
+	background: transparent !important;
 }
 
 #user-lists .user  {
-	background: rgba(0,0,0,0.3) !important;
+	background: transparent !important;
 }
 
 #user-lists .list .user .name {
@@ -154,7 +154,7 @@
 }
 
 #user-lists .list.staff .group {
-	background: rgba(0,0,0,0.5) !important;
+	background: transparent !important;
 }
 
 .icon-chat-ambassador + span {
@@ -309,14 +309,14 @@ body {
     background-size: 100% auto !important background-attachment: fixed 0px 0px !important
 }
 
-#footer, #playlist-button, #footer-user .buttons .button, .app-header, #app-menu, #rs-skip-button, #history-button {
+#footer, #playlist-button, #footer-user .buttons .button, .app-header, #app-menu, #rs-skip-button, #history-button, .jspDrag {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
 }
 #footer-user .buttons {
   height: 54px !important;
 }
-#social-menu {
+.social-menu {
   display: none !important;
 }
 .cm {
@@ -330,4 +330,38 @@ body {
 }
 .header-panel-button {
   border-right: 0 !important;
+}
+.timestamp {
+  color: white !important;
+}
+#waitlist .list .user {
+  background: transparent !important;
+}
+#waitlist .list .user .meta {
+  border-bottom: none;
+}
+.app-right .friends .list-header {
+  border-bottom: none !important;
+}
+.friends {
+  background: transparent !important;
+}
+.list-header .input-background {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  background: transparent !important;
+}
+.jspTrack {
+  background: transparent !important;
+}
+#vote .crowd-response {
+  margin: 0 !important;
+}
+.votes-rs {
+  width: 252px !important;
+  margin-top: -198px !important;
+  border-bottom: none !important;
+}
+#chat-input {
+  background: transparent !important;
 }
