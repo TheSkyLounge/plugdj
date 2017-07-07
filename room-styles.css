@@ -174,7 +174,7 @@
 }
 
 .icon-chat-bouncer + span {
-    color: #01e1ff !important;
+    color: #3498db !important;
 }
 
 .icon-chat-dj + span {
@@ -309,7 +309,7 @@ body {
     background-size: 100% auto !important background-attachment: fixed 0px 0px !important
 }
 
-#footer, #playlist-button, #footer-user .buttons .button, .app-header, #app-menu, #rs-skip-button, #history-button, .jspDrag {
+#footer, #playlist-button, #footer-user .buttons .button, .app-header, #app-menu, #rs-skip-button, #history-button, .jspDrag, .action {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
 }
@@ -364,4 +364,16 @@ body {
 }
 #chat-input {
   background: transparent !important;
+}
+#user-lists .list.staff .group {
+  border: none !important;
+}
+#user-rollover {
+  background: rgba(0,0,0,0.6) !important;
+}
+.action {
+  background: transparent !important;
+}
+#user-lists .list.staff .group:first-child {
+  border-top: none !important;
 }
