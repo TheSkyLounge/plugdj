@@ -2,66 +2,6 @@
     background: url('http://i.imgur.com/HiNqDEI.png');
 }
 
-#playback-container {
-    background-image: url();
-    background-position: center;
-    background-size: 100% auto;
-}
-
-#chat .message:nth-child(2n+1) #chat .mention:nth-child(2n+1) #chat .skip:nth-child(2n+1) #chat .moderation:nth-child(2n+1) #chat .emote:nth-child(2n+1) #chat .update:nth-child(2n+1) #chat .welcome:nth-child(2n+1) {
-    background-color: rgba(17 19 23 0.32);
-    -webkit-animation: fadein 0.25s;
-    -moz-animation: fadein 0.25s;
-    -ms-animation: fadein 0.25s;
-    -o-animation: fadein 0.25s;
-    animation: fadein 0.25s;
-    animation: fadein 0.25s;
-    background-color: #111317;
-    border-radius: 0px;
-}
-
-#chat #chat-input {
-}
-/* Hanabi */
-#chat-messages .id-4204811 .badge-box i.bdg {
-    background-image: url(http://i.imgur.com/7o0wqzU.png);
-    background-size: cover;
-}
-/* Moryo */
-#chat-messages .id-3973162 .badge-box i.bdg {
-    background-image: url(http://i.imgur.com/G1Y93Jc.png);
-    background-size: cover;
-}
-
-/* Tempall */
-#chat-messages .id-13691193 .badge-box i.bdg {
-    background-image: url(http://i.imgur.com/A6x7wpJ.png);
-    background-size: cover;
-}
-/* Kitsun */
-#chat-messages .id-3371657 .badge-box i.bdg {
-    background-image: url(http://i.imgur.com/kYgGnxI.png);
-    background-size: cover;
-}
-
-/* JAAC */
-#chat-messages .id-13455805 .badge-box i.bdg {
-    background-image: url(http://i.imgur.com/uZ59Voi.png);
-    background-size: cover;
-}
-
-[data-cid^="3973162-"].cm .msg .from .un, .role-manager.id-3973162 .name
-{
-        color:                  #000 !important;
-        text-shadow:            0px 0px 1px #ff66a7, 0px 0px 5px #ff66a7, 0px 0px 10px #ff66a7 !important;
-}
-
-/*[data-cid^="4204811-"].cm .msg .from .un, .role-manager.id-4204811 .name
-{
-        color:                  #ff5273 !important;
-        text-shadow:            0px 0px 1px #7636F4, 0px 0px 5px #7636F4, 0px 0px 10px #7636F4 !important;
-}*/
-
 .icon-chat-host > span {
     color: #a635ff !important;
 }
@@ -367,4 +307,27 @@
 
 body {
     background-size: 100% auto !important background-attachment: fixed 0px 0px !important
+}
+
+#footer, #playlist-button, #footer-user .buttons .button, .app-header, #app-menu, #rs-skip-button, #history-button {
+  box-shadow: 0 !important;
+  -webkit-box-shadow: 0 !important;
+}
+#footer-user .buttons {
+  height: 54px !important;
+}
+#social-menu {
+  display: none !important;
+}
+.cm {
+  background: transparent !important;
+}
+.bar-divider {
+  display: none !important;
+}
+#history-button {
+  width: 55px !important;
+}
+.header-panel-button {
+  border-right: 0 !important;
 }
