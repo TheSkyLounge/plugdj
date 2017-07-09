@@ -379,3 +379,15 @@ body {
 #grab {
   border-radius: 0 4px 4px 0;
 }
+.icon.icon-chat-host {
+  background: url('http://i.imgur.com/jRoXw1j.png');
+}
+.icon.icon-chat-manager {
+  background: url('http://i.imgur.com/1IiTFhw.png');
+}
+.icon.icon-chat-bouncer {
+  background: url('http://i.imgur.com/bFaXJNP.png');
+}
+.icon.icon-chat-dj {
+  background: url('http://i.imgur.com/zl4IRms.png');
+}
