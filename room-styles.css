@@ -3,7 +3,7 @@
 }
 
 .icon-chat-host > span {
-    color: #a635ff !important;
+    color: #e74c3c !important;
 }
 
 #playlist-panel {
@@ -157,20 +157,16 @@
 	background: transparent !important;
 }
 
-.icon-chat-ambassador + span {
-    color: #89be6c !important;
-}
-
 .icon-chat-host + span {
-    color: #a635ff !important;
+    color: #e74c3c !important;
 }
 
 .icon-chat-cohost + span {
-    color: #a635ff !important;
+    color: #e74c3c !important;
 }
 
 .icon-chat-manager + span {
-    color: #0191ff !important;
+    color: #f1c40f !important;
 }
 
 .icon-chat-bouncer + span {
@@ -178,7 +174,7 @@
 }
 
 .icon-chat-dj + span {
-    color: #89BE6C !important;
+    color: #2ecc71 !important;
 }
 
 .message, .app-right, .mention, .moderation, .emote, .skip, .system, .update, .welcome{
@@ -358,7 +354,7 @@ body {
   margin: 0 !important;
 }
 .votes-rs {
-  width: 252px !important;
+  width: 168px !important;
   margin-top: -198px !important;
   border-bottom: none !important;
 }
@@ -376,4 +372,10 @@ body {
 }
 #user-lists .list.staff .group:first-child {
   border-top: none !important;
+}
+#meh {
+  display: none !important;
+}
+#grab {
+  border-radius: 0 4px 4px 0;
 }
