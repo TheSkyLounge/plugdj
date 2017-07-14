@@ -384,6 +384,9 @@ body {
 .icon.icon-chat-dj {
   background: url('http://i.imgur.com/zl4IRms.png');
 }
+#user-rollover .info {
+  background: transparent !important;
+}
 
 
 /* Y0KAII */
