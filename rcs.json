@@ -2,7 +2,7 @@
     "room":                     "The Sky Lounge",
     "author":                   "Vintroxx",
     "icon":                     "",
-    "css":                      "https://theskylounge.ga/plugdj/room-styles.css",
+    "css":                      "https://theskylounge.github.io/plugdj/room-styles.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
